@@ -1,12 +1,16 @@
 // == Import
-import reactLogo from './react-logo.svg';
-import './styles.css';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Home from '../Home';
+import './app.scss';
 
 // == Composant
 const App = () => (
   <div className="app">
-    <img src={reactLogo} alt="react logo" />
-    <h1>Composant : App</h1>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </Router>
   </div>
 );
 
