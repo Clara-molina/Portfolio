@@ -1,0 +1,100 @@
+@use 'src/styles/vars';
+
+.container {
+  .container-home {
+    background-color: #e8a798;
+    min-height: 45vh;
+
+    .title {
+      font-size: 5em;
+      font-family: "Comforter Brush";
+      margin: 1em auto 1em;
+      color: #211b19;
+      text-align: center;
+    }
+
+    .home-description {
+      font-size: 2em;
+      color: #211b19;
+      padding-bottom: 5em;
+      text-align: center;
+    }
+
+    .home-arrow {
+      height: 5vh;
+      margin: 0 auto 5em;
+      display: flex;
+    }
+
+    .home-cv {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .home-photo {
+        max-height: 15vh;
+        width: auto;
+        border-radius: 5%;
+        margin: 0 1em 2em;
+      }
+
+      .home-Mo {
+        text-align: center;
+        .home-upload {
+          color: #211b19;
+          background-color: #fa827f;
+          border: 1px solid #211b19;
+          border-radius: 5px;
+          padding: 0.5em;
+          height: 3vh;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+  .home-img {
+    max-height: 25vh;
+    width: auto;
+    border-radius: 5%;
+    margin: 0 auto 1em;
+    display: flex;
+  }
+
+  .container-one {
+    min-height: 40vh;
+    background-color: #211b19;
+    padding: 1em;
+    border-radius: 5%;
+    margin-bottom: 2em;
+    text-align: center;
+  }
+
+  .container-two {
+    min-height: 30vh;
+    background-color: #724d40;
+    padding: 1em;
+    border-radius: 5%;
+    margin-bottom: 2em;
+    text-align: center;
+  }
+
+  .title-section {
+    font-size: 3em;
+    font-family: "Comforter";
+    color: #fa827f;
+    padding: 0.5em;
+  }
+
+  .home-description {
+    color: #e8a798;
+    font-size: 1.2em;
+  }
+
+  a {
+    color: #e8a798;
+  }
+  a:hover {
+    color: #fa827f;
+  }
+}
