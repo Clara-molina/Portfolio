@@ -1,0 +1,99 @@
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  right: 36px;
+  top: 36px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background-color: #fa827f;
+}
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+  background-color: #211b19;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #fa827f;
+}
+
+/*
+Sidebar wrapper styles
+Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+*/
+.bm-menu-wrap {
+  position: fixed;
+  height: 100%;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: #211b19;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.3em;
+  font-family: "Montserrat";
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  padding: 0.3em;
+}
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+  text-decoration: none;
+  color: #e8a798;
+  padding: 0.4em;
+}
+.bm-item:hover {
+  color: #fa827f;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.navbar {
+  display: none;
+}
+
+@media screen and (min-width: 1200px) {
+  .bm-burger-button {
+    display: none;
+  }
+
+  .navbar {
+    display: block;
+    background-color: #fa827f;
+    color: #211b19;
+
+    .container {
+      .navbar-brand {
+        font-family: "Comforter";
+        font-size: 2em;
+        padding: 0 1em 0;
+      }
+      .navbar-nav {
+        margin: 0 !important;
+        .nav-link {
+          color: #211b19;
+          margin-right: 4em;
+        }
+        .nav-link:hover {
+          border-bottom: solid 1px;
+        }
+      }
+    }
+  }
+}

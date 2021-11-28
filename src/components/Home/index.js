@@ -8,7 +8,7 @@ import home1 from 'src/assets/img/home1.jpg';
 import home2 from 'src/assets/img/home2.jpg';
 import home3 from 'src/assets/img/home3.jpg';
 import arrow from 'src/assets/img/arrow-down.svg';
-import cv from 'src/assets/files/cv.pdf';
+import cv from 'src/assets/files/cv clara.pdf';
 
 const Home = () => (
   <div className="container">
@@ -20,11 +20,11 @@ const Home = () => (
         </div>
       </div>
       <div className="home-arrow">
-        <img src={arrow} alt="arrow" className="arrow" />
+        <img src={arrow} alt="arrow" className="arrow bounce" />
       </div>
     </section>
 
-    <div className="home-cv">
+    <div id="cv" className="home-cv">
       <img src={photo} alt="clara" className="home-photo" />
       <Link to={cv} target="_blank" className="home-upload" download><img src="" alt="" /><FileEarmarkPdf className="iconPdf" />Télécharger mon Cv</Link>
     </div>
@@ -32,23 +32,23 @@ const Home = () => (
     <section id="one" className="container-one">
       <div className="home-one">
         <h1 className="title-section">Mon parcours</h1>
-        <p className="container-description">On rembobine en 2009. <br /><br />De nature autonome j'ai rapidement souhaiter être indépendante, j'ai donc arrêter le lycée pour travailler, à 16 ans j'obtient mon premier cdi dans le domaine de la vente et rapidement j'ai des responsabilitées. <br /><br /> Plus tard, une opportunité d'être formé en tant qu'assistante dentaire s'ouvre à moi, pourquoi pas ?! <br />C'est partis pour 18 mois de formation. <br /><br /> 7 années plus tard le praticien prends sa retraite, un choix s'offre à moi, continuer sur cette carrière ou bien, me reconvertir dans un domaine qui me permet d'en apprendre tout les jours ... Le dev!  </p>
+        <p className="container-description">On retourne jusqu'en 2009. <br /><br />De nature autonome j'ai rapidement souhaité être indépendante, j'ai donc arrêté le lycée pour travailler, à 16 ans j'obtiens mon premier CDI dans le domaine de la vente et rapidement j'ai des responsabilités. <br /><br /> Plus tard, une possibilité d'être formé en tant qu'assistante dentaire s'ouvre à moi, pourquoi pas ?! <br />C'est partis pour 18 mois de formation. <br /><br /> 7 années plus tard le praticien prends sa retraite, un choix s'offre à moi, continuer sur cette carrière ou bien, me reconvertir dans un domaine qui me permet d'apprendre tous les jours de nouvelles choses ... Le dev!  </p>
       </div>
       <div className="home-img">
         <img src={home1} alt="" className="home-img" />
       </div>
     </section>
 
-    <section id="tow" className="container-two">
+    <section id="two" className="container-two">
       <div className="home-one">
         <h1 className="title-section">Ma reconversion</h1>
         <p className="container-description">Juin 2021 débute ma formation intense chez
-      <a rel="noopener noreferrer" className="link-projet" href="https://oclock.io/?gclid=Cj0KCQiAhf2MBhDNARIsAKXU5GSy_JK9lYPFKzaYcQdlFTyN17dUElgQSYVR5bvf113eUmgjJNYQwxcaAjlhEALw_wcB" target="_blank"> O'clock
-      </a>, 6 mois plus tard me voici développeuse web avec une petite préference pour le front puisque j'ai choisi de me spécialiser en React. La formation c'est achevée en Apothéose avec la présentation en live sur Youtube de nos projets de fin d'étude réaliser de A à Z en 1 mois. <br /><br />Pour voir ma présentation c'est par ici, à 22:27 minutes.
-      </p>
+          <a rel="noopener noreferrer" className="link-projet" href="https://oclock.io/?gclid=Cj0KCQiAhf2MBhDNARIsAKXU5GSy_JK9lYPFKzaYcQdlFTyN17dUElgQSYVR5bvf113eUmgjJNYQwxcaAjlhEALw_wcB" target="_blank"> O'clock
+          </a>, 6 mois plus tard me voici développeuse web avec une petite préférence pour le front puisque j'ai choisi de me spécialiser en React. La formation c'est achevée en Apothéose avec la présentation en direct sur Youtube de nos projets de fin d'étude réaliser de A à Z en 1 mois. <br /><br />Pour voir ma présentation c'est par ici, à 22:27 minutes.
+        </p>
         <button type="button" className="button-projet">
           <a rel="noopener noreferrer" className="link-projet" href="https://www.youtube.com/watch?v=kHnBAk1Bwrg" target="_blank"><Youtube className="icon-youtube" /> Projet Spinning Squid
-        </a>
+          </a>
         </button>
       </div>
       <div className="home-img">
@@ -63,12 +63,12 @@ const Home = () => (
           <li className="container-items">
             <CodeSlash className="icon" />
             <h2 className="title-list">HTML & CSS</h2>
-            <p>Language de base maitrisés, je continue bien sur d'améliorer mes connaisances</p>
+            <p>Langage de base maîtrisés, je continue bien sûr d'améliorer mes connaissances</p>
           </li>
           <li className="container-items">
             <CodeSlash className="icon" />
             <h2 className="title-list">JAVA SCRIPT</h2>
-            <p>Avec Java Script je me suis découvert une préference pour le Front, j'aime découvrir toutes les possiblités avec ce language, notament manipuler des API avec <strong>Ajax</strong>.</p>
+            <p>Avec Java Script j'ai acquis une préférence pour le Front, j'aime découvrir toutes les possibilités avec ce langage, notamment manipuler des API avec <strong>Ajax</strong>.</p>
           </li>
           <li className="container-items">
             <CodeSlash className="icon" />
