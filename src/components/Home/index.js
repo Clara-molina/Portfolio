@@ -32,7 +32,7 @@ const Home = () => (
     <section id="one" className="container-one">
       <div className="home-one">
         <h1 className="title-section">Mon parcours</h1>
-        <p className="container-description">On retourne jusqu'en 2009. <br /><br />De nature autonome j'ai rapidement souhaité être indépendante, j'ai donc arrêté le lycée pour travailler, à 16 ans j'obtiens mon premier CDI dans le domaine de la vente et rapidement j'ai des responsabilités. <br /><br /> Plus tard, une possibilité d'être formé en tant qu'assistante dentaire s'ouvre à moi, pourquoi pas ?! <br />C'est partis pour 18 mois de formation. <br /><br /> 7 années plus tard le praticien prends sa retraite, un choix s'offre à moi, continuer sur cette carrière ou bien, me reconvertir dans un domaine qui me permet d'apprendre tous les jours de nouvelles choses ... Le dev!  </p>
+        <p className="container-description">De nature autonome j'ai rapidement souhaité être indépendante, à 16 ans j'obtiens mon premier CDI dans le domaine de la vente et rapidement j'ai des responsabilités. <br /><br /> Plus tard, une possibilité d'être formé en tant qu'assistante dentaire s'offre à moi, pourquoi pas ?! <br />C'est partis pour 18 mois de formation. <br /><br /> 7 années plus tard, un choix s'offre à moi, continuer sur cette carrière ou bien, me reconvertir dans un domaine qui me permet d'apprendre tous les jours de nouvelles choses ... Le dev!  </p>
       </div>
       <div className="home-img">
         <img src={home1} alt="" className="home-img" />
@@ -44,7 +44,7 @@ const Home = () => (
         <h1 className="title-section">Ma reconversion</h1>
         <p className="container-description">Juin 2021 débute ma formation intense chez
           <a rel="noopener noreferrer" className="link-projet" href="https://oclock.io/?gclid=Cj0KCQiAhf2MBhDNARIsAKXU5GSy_JK9lYPFKzaYcQdlFTyN17dUElgQSYVR5bvf113eUmgjJNYQwxcaAjlhEALw_wcB" target="_blank"> O'clock
-          </a>, 6 mois plus tard me voici développeuse web avec une petite préférence pour le front puisque j'ai choisi de me spécialiser en React. La formation c'est achevée en Apothéose avec la présentation en direct sur Youtube de nos projets de fin d'étude réaliser de A à Z en 1 mois. <br /><br />Pour voir ma présentation c'est par ici, à 22:27 minutes.
+          </a>, 6 mois plus tard me voici développeuse web avec une petite préférence pour le front puisque j'ai choisi de me spécialiser en React. La formation c'est achevée en Apothéose avec la présentation en direct sur Youtube de nos projets de fin d'étude réalisées en 1 mois. <br /><br />Pour voir ma présentation c'est par ici, à 22:27 minutes.
         </p>
         <button type="button" className="button-projet">
           <a rel="noopener noreferrer" className="link-projet" href="https://www.youtube.com/watch?v=kHnBAk1Bwrg" target="_blank"><Youtube className="icon-youtube" /> Projet Spinning Squid
@@ -73,22 +73,22 @@ const Home = () => (
           <li className="container-items">
             <CodeSlash className="icon" />
             <h2 className="title-list">PHP & MYSQL</h2>
-            <p>J'apprécie aussi le back, PHP était une partie majeur de la formation, avec des méthodes telles que <strong>POO</strong>, <strong>MVC</strong> ou <strong>Agile</strong>.</p>
+            <p>J'apprécie aussi le back, PHP était une majeure partie de la formation, avec des méthodes telles que <strong>POO</strong>, <strong>MVC</strong> ou <strong>Agile</strong>.</p>
           </li>
           <li className="container-items">
             <Flag className="icon" />
             <h2 className="title-list">CMS</h2>
-            <p><strong>WordPress</strong>, le back-end de mon projet de fin d'étude à été réaliser avec.</p>
+            <p><strong>WordPress</strong>, le back-end de mon projet de fin d'étude a été réalisé avec.</p>
           </li>
           <li className="container-items">
             <Heart className="icon" />
             <h2 className="title-list">FRAMEWORK</h2>
-            <p><strong>React</strong> à été mon choix de spé au cours de la formation, ayant une préference pour le front je me régal de plus en plus avec ce Framwork.<br /> J'utilise aussi <strong>Sass</strong> constament dans mes projets. <br /> Parfois j'utilise aussi <strong>Bootstrap</strong> pour certains élements.</p>
+            <p><strong>React</strong> a été mon choix de spé au cours de la formation, ayant une préférence pour le front je me régale de plus en plus avec ce Framwork.<br /> J'utilise aussi <strong>Sass</strong> constamment dans mes projets. <br /> Parfois j'utilise aussi <strong>Bootstrap</strong> pour certains éléments.</p>
           </li>
           <li className="container-items">
             <Laptop className="icon" />
             <h2 className="title-list">OUTILS</h2>
-            <p>Au cours de la formation j'ai développé sur un environnement <strong>GNU Linux</strong>, aujourd'hui je suis sur <strong>OS</strong>. <br /> J'ai appris à utiliser <strong>Git</strong> ainsi que <strong>GitHub</strong>, ils font maintenant partit de ma routine.</p>
+            <p>Au cours de la formation j'ai développé sur un environnement <strong>GNU Linux</strong>, aujourd'hui je suis sur <strong>OS</strong>. <br /> J'ai appris à utiliser <strong>Git</strong> ainsi que <strong>GitHub</strong>, ils font maintenant partie de ma routine.</p>
           </li>
         </ul>
       </div>
@@ -100,7 +100,7 @@ const Home = () => (
       </div>
       <div className="home-one">
         <h1 className="title-section">Et maintenant ?</h1>
-        <p className="container-description">Actuellement je prépars mon dossier pour passer le <strong>Titre Professionnel</strong> de développeuse Web en Janvier sur Paris, en parallèle j'étudie pour passer la certification <strong>Opquast</strong> et je développe aussi des projets personnels afin d'améliorer mes compétences</p>
+        <p className="container-description">Actuellement je me prépare pour passer le <strong>Titre Professionnel</strong> de développeuse Web en janvier sur Paris, en parallèle j'étudie pour passer la certification <strong>Opquast</strong> et je développe aussi des projets personnels afin d'améliorer mes compétences.</p>
       </div>
     </section>
   </div>

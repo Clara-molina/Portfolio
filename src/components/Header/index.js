@@ -1,7 +1,5 @@
 // import
-// import { HashLink } from 'react-router-hash-link';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import { Navbar, Container, Nav } from 'react-bootstrap';
+import { HashLink, NavHashLink } from 'react-router-hash-link';
 import { slide as Menu } from 'react-burger-menu';
 import './header.scss';
 
@@ -16,18 +14,51 @@ const Header = () => (
       <a className="menu-item" href="#four">Et maintenant ?</a>
     </Menu>
 
-    <Navbar sticky="top">
-      <Container>
-        <Navbar.Brand href="#home">Portfolio</Navbar.Brand>
-        <Nav className="me-auto">
-          <Nav.Link href="#cv">Mon CV</Nav.Link>
-          <Nav.Link href="#one">Mon parcours</Nav.Link>
-          <Nav.Link href="#two">Ma reconversion</Nav.Link>
-          <Nav.Link href="#three">Mes compéthences</Nav.Link>
-          <Nav.Link href="#four">Et maintenant ?</Nav.Link>
-        </Nav>
-      </Container>
-    </Navbar>
+    <nav className="nav">
+      <div className="left-nav">
+        <HashLink smooth className="left-link" to="#home">
+          Portfolio
+        </HashLink>
+      </div>
+      <div className="right-nav">
+        <NavHashLink
+          smooth
+          to="/#cv"
+          className="nav-link"
+          activeClassName="nav-active"
+        >
+          Mon CV
+        </NavHashLink>
+        <NavHashLink
+          smooth
+          to="#one"
+          className="nav-link"
+        >
+          Mon parcours
+        </NavHashLink>
+        <NavHashLink
+          smooth
+          to="#two"
+          className="nav-link"
+        >
+          Ma reconversion
+        </NavHashLink>
+        <NavHashLink
+          smooth
+          to="#three"
+          className="nav-link"
+        >
+          Mes compéthences
+        </NavHashLink>
+        <NavHashLink
+          smooth
+          to="#four"
+          className="nav-link"
+        >
+          Et maintenant ?
+        </NavHashLink>
+      </div>
+    </nav>
   </>
 );
 

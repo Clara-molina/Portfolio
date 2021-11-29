@@ -1,3 +1,5 @@
+/* Burger Menu */
+
 /* Position and sizing of burger button */
 .bm-burger-button {
   position: fixed;
@@ -19,6 +21,8 @@
 
 /* Position and sizing of clickable cross button */
 .bm-cross-button {
+  width: 30px;
+  height: 30px;
 }
 
 /* Color/shape of close button cross */
@@ -38,34 +42,71 @@ Note: Beware of modifying this element as it can break the animations - you shou
 /* General sidebar styles */
 .bm-menu {
   background: #211b19;
-  padding: 2.5em 1.5em 0;
+  padding: 2.5em 1em 0;
   font-size: 1.3em;
-  font-family: "Montserrat";
 }
 
 /* Wrapper for item list */
 .bm-item-list {
-  padding: 0.3em;
+  color: #fa827f;
+  padding: 0.8em;
 }
 
 /* Individual item */
 .bm-item {
   display: inline-block;
-  text-decoration: none;
-  color: #e8a798;
-  padding: 0.4em;
-}
-.bm-item:hover {
-  color: #fa827f;
+  padding-bottom: 1em;
 }
 
 /* Styling of overlay */
 .bm-overlay {
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.5);
 }
 
-.navbar {
+/*
+NavBar
+*/
+.nav {
   display: none;
+  position: fixed;
+  width: 100%;
+  height: 64px;
+  background-color: #fa827f;
+  color: #211b19;
+  text-decoration: none;
+
+  .left-nav {
+    float: left;
+    display: flex;
+    align-items: center;
+    width: 10%;
+    height: 100%;
+    margin-left: 2em;
+    .left-link {
+      font-family: "Comforter";
+      font-size: 1.5em;
+    }
+  }
+
+  .right-nav {
+    float: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+    padding-right: 2em;
+    .nav-link {
+    }
+
+    .nav-link:hover,
+    .nav-link:focus {
+      transform: translateY(-4px);
+    }
+    .nav-active {
+      font-weight: bold;
+    }
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -73,27 +114,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
     display: none;
   }
 
-  .navbar {
+  .nav {
     display: block;
-    background-color: #fa827f;
-    color: #211b19;
-
-    .container {
-      .navbar-brand {
-        font-family: "Comforter";
-        font-size: 2em;
-        padding: 0 1em 0;
-      }
-      .navbar-nav {
-        margin: 0 !important;
-        .nav-link {
-          color: #211b19;
-          margin-right: 4em;
-        }
-        .nav-link:hover {
-          border-bottom: solid 1px;
-        }
-      }
-    }
   }
 }
