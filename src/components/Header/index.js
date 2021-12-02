@@ -1,17 +1,36 @@
 // import
+import React, { useState } from 'react'
 import { HashLink, NavHashLink } from 'react-router-hash-link';
 import { slide as Menu } from 'react-burger-menu';
 import './header.scss';
 
-const Header = () => (
+const Header = () => {
+
+  const [isOpen, setOpen] = useState(false)
+
+  const handleIsOpen = () => {
+    setOpen(!isOpen)
+  }
+
+  const closeSideBar = () => {
+    setOpen(false)
+  }
+
+ 
+  return (
   <>
-    <Menu stack right isOpen={false}>
-      <a className="menu-item" href="#home">Accueil</a>
-      <a className="menu-item" href="#cv">Mon CV</a>
-      <a className="menu-item" href="#one">Mon parcours</a>
-      <a className="menu-item" href="#two">Ma reconversion</a>
-      <a className="menu-item" href="#three">Mes compéthences</a>
-      <a className="menu-item" href="#four">Et maintenant ?</a>
+    <Menu 
+    stack 
+    right 
+    isOpen={isOpen}
+    onOpen={handleIsOpen}
+    onClose={handleIsOpen}>
+      <a onClick={closeSideBar} className="menu-item" href="#home">Accueil</a>
+      <a onClick={closeSideBar} className="menu-item" href="#cv">Mon CV</a>
+      <a onClick={closeSideBar} className="menu-item" href="#one">Mon parcours</a>
+      <a onClick={closeSideBar} className="menu-item" href="#two">Ma reconversion</a>
+      <a onClick={closeSideBar} className="menu-item" href="#three">Mes compéthences</a>
+      <a onClick={closeSideBar} className="menu-item" href="#four">Et maintenant ?</a>
     </Menu>
 
     <nav className="nav">
@@ -60,6 +79,6 @@ const Header = () => (
       </div>
     </nav>
   </>
-);
+)};
 
 export default Header;
