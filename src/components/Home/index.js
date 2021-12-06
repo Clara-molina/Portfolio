@@ -32,7 +32,7 @@ const Home = () => (
     <section id="one" className="container-one">
       <div className="home-one">
         <h1 className="title-section">Mon parcours</h1>
-        <p className="container-description">De nature autonome j'ai rapidement souhaité être indépendante, à 16 ans j'obtiens mon premier CDI dans le domaine de la vente et rapidement j'ai des responsabilités. <br /><br /> Plus tard, une possibilité d'être formé en tant qu'assistante dentaire s'offre à moi, pourquoi pas ?! <br />C'est partis pour 18 mois de formation. <br /><br /> 7 années plus tard, un choix s'offre à moi, continuer sur cette carrière ou bien, me reconvertir dans un domaine qui me permet d'apprendre tous les jours de nouvelles choses ... Le dev!  </p>
+        <p className="container-description">De nature autonome j'ai rapidement souhaité être indépendante, à 16 ans j'obtiens mon premier CDI dans le domaine de la vente et rapidement davantage de responsabilités. <br /><br /> Plus tard, une possibilité d'être formée en tant qu'assistante dentaire s'offre à moi: pourquoi pas ?! <br />C'est parti pour 18 mois de formation. <br /><br /> 7 années plus tard, un choix s'offre à moi, continuer sur cette carrière, ou bien, me reconvertir dans un domaine qui me permettrai d'apprendre tous les jours de nouvelles choses ... Le dev!  </p>
       </div>
       <div className="home-img">
         <img src={home1} alt="" className="home-img" />
@@ -44,9 +44,9 @@ const Home = () => (
         <h1 className="title-section">Ma reconversion</h1>
         <p className="container-description">Juin 2021 débute ma formation intense chez
           <a rel="noopener noreferrer" href="https://oclock.io/?gclid=Cj0KCQiAhf2MBhDNARIsAKXU5GSy_JK9lYPFKzaYcQdlFTyN17dUElgQSYVR5bvf113eUmgjJNYQwxcaAjlhEALw_wcB" target="_blank"> O'clock
-          </a>, 6 mois plus tard me voici développeuse web avec une petite préférence pour le front puisque j'ai choisi de me spécialiser en React. La formation c'est achevée en Apothéose avec la présentation en direct sur Youtube de nos projets de fin d'étude réalisées en 1 mois. <br /><br />Pour voir ma présentation c'est par ici, à 22:27 minutes.
+          </a>, 6 mois plus tard me voici développeuse web avec une petite préférence pour le front puisque j'ai choisi de me spécialiser en React. La formation s'est achevée en apothéose avec la présentation en direct sur Youtube de nos projets de fin d'étude réalisés en 1 mois. <br /><br />Pour voir ma présentation c'est par ici, à 22:27 minutes.
         </p>
-          <a rel="noopener noreferrer" className="link-projet" href="https://www.youtube.com/watch?v=kHnBAk1Bwrg" target="_blank"><Youtube className="icon-youtube" /> Projet Spinning Squid
+        <a rel="noopener noreferrer" className="link-projet" href="https://www.youtube.com/watch?v=kHnBAk1Bwrg" target="_blank"><Youtube className="icon-youtube" /> Projet Spinning Squid
           </a>
       </div>
       <div className="home-img">
@@ -61,7 +61,7 @@ const Home = () => (
           <li className="container-items">
             <CodeSlash className="icon" />
             <h2 className="title-list">HTML & CSS</h2>
-            <p>Langage de base maîtrisés, je continue bien sûr d'améliorer mes connaissances</p>
+            <p>Langage de base maîtrisé, je continue bien sûr d'améliorer mes connaissances</p>
           </li>
           <li className="container-items">
             <CodeSlash className="icon" />
@@ -86,7 +86,7 @@ const Home = () => (
           <li className="container-items">
             <Laptop className="icon" />
             <h2 className="title-list">OUTILS</h2>
-            <p>Au cours de la formation j'ai développé sur un environnement <strong>GNU Linux</strong>, aujourd'hui je suis sur <strong>OS</strong>. <br /> J'ai appris à utiliser <strong>Git</strong> ainsi que <strong>GitHub</strong>, ils font maintenant partie de ma routine.</p>
+            <p>Au cours de la formation j'ai développé sur un environnement <strong>GNU Linux</strong>, aujourd'hui je suis sur <strong>OS</strong>. <br /> J'ai appris à utiliser <strong>Git</strong> ainsi que <strong>GitHub</strong>, ils font maintenant parti de ma routine.</p>
           </li>
         </ul>
       </div>
