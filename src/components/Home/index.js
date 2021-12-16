@@ -11,7 +11,7 @@ import arrow from 'src/assets/img/arrow-down.svg';
 import cv from 'src/assets/files/cv clara.pdf';
 
 const Home = () => (
-  <div className="container">
+  <section className="container">
     <section id="home" className="container-home">
       <h1 className="title">Clara Molina</h1>
       <div className="box">
@@ -47,7 +47,7 @@ const Home = () => (
           </a>, 6 mois plus tard me voici développeuse web avec une petite préférence pour le front puisque j'ai choisi de me spécialiser en React. La formation s'est achevée en apothéose avec la présentation en direct sur Youtube de nos projets de fin d'étude réalisés en 1 mois. <br /><br />Pour voir ma présentation c'est par ici, à 22:27 minutes.
         </p>
         <a rel="noopener noreferrer" className="link-projet" href="https://www.youtube.com/watch?v=kHnBAk1Bwrg" target="_blank"><Youtube className="icon-youtube" /> Projet Spinning Squid
-          </a>
+        </a>
       </div>
       <div className="home-img">
         <img src={home2} alt="" className="home-img" />
@@ -101,7 +101,7 @@ const Home = () => (
         <p className="container-description">Actuellement je me prépare pour passer le <strong>Titre Professionnel</strong> de développeuse Web en janvier sur Paris, en parallèle j'étudie pour passer la certification <strong>Opquast</strong> et je développe aussi des projets personnels afin d'améliorer mes compétences.</p>
       </div>
     </section>
-  </div>
+  </section>
 );
 
 export default Home;
