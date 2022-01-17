@@ -28,7 +28,7 @@ const Header = () => {
         <a onClick={closeSideBar} className="menu-item" href="#cv">Mon CV</a>
         <a onClick={closeSideBar} className="menu-item" href="#one">Mon parcours</a>
         <a onClick={closeSideBar} className="menu-item" href="#two">Ma reconversion</a>
-        <a onClick={closeSideBar} className="menu-item" href="#three">Mes compéthences</a>
+        <a onClick={closeSideBar} className="menu-item" href="#three">Mes compétences</a>
         <a onClick={closeSideBar} className="menu-item" href="#four">Et maintenant ?</a>
       </Menu>
 
@@ -66,7 +66,7 @@ const Header = () => {
             to="#three"
             className="nav-link"
           >
-            Mes compéthences
+            Mes compétences
           </NavHashLink>
           <NavHashLink
             smooth

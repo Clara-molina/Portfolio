@@ -98,7 +98,7 @@ const Home = () => (
       </div>
       <div className="home-one">
         <h1 className="title-section">Et maintenant ?</h1>
-        <p className="container-description">Actuellement je me prépare pour passer le <strong>Titre Professionnel</strong> de développeuse Web en janvier sur Paris, en parallèle j'étudie pour passer la certification <strong>Opquast</strong> et je développe aussi des projets personnels afin d'améliorer mes compétences.</p>
+        <p className="container-description">J'ai passé le <strong>Titre Professionnel</strong> de développeuse Web et Web Mobile le 12 janvier sur Paris, en attendant les résultats, j'étudie pour passer la certification <strong>Opquast</strong> et je développe aussi des projets personnels afin d'améliorer mes compétences.</p>
       </div>
     </section>
   </section>

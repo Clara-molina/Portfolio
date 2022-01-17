@@ -5,7 +5,7 @@ import './footer.scss';
 const Footer = () => (
   <footer>
     <nav className="footer">
-      <p className="copyright">2021 | Clara Molina </p>
+      <p className="copyright">2022 | Clara Molina </p>
       <a
         rel="noopener noreferrer"
         href="https://github.com/Clara-molina"
