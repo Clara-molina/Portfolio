@@ -16,7 +16,7 @@ const Home = () => (
       <h1 className="title">Clara Molina</h1>
       <div className="box">
         <div className="content">
-          <p className="home-description">Développeuse Web Front-end</p>
+          <p className="home-description">Développeuse Web</p>
         </div>
       </div>
       <div className="home-arrow">
@@ -98,7 +98,7 @@ const Home = () => (
       </div>
       <div className="home-one">
         <h1 className="title-section">Et maintenant ?</h1>
-        <p className="container-description">J'ai passé le <strong>Titre Professionnel</strong> de développeuse Web et Web Mobile le 12 janvier sur Paris, en attendant les résultats, j'étudie pour passer la certification <strong>Opquast</strong> et je développe aussi des projets personnels afin d'améliorer mes compétences.</p>
+        <p className="container-description">Fraichement diplômé du <strong>Titre Professionnel</strong> de développeuse web et mobile, j'étudie pour passer la certification <strong>Opquast</strong> et je développe aussi des projets personnels afin d'améliorer mes compétences.</p>
       </div>
     </section>
   </section>
